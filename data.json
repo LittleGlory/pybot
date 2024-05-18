@@ -1,0 +1,1154 @@
+{
+    "intents": [{
+            "tag": "greeting",
+            "patterns": ["Hi",
+                "I need to talk to someone!",
+                "Is anyone there?",
+                "Hello",
+                "Whats up",
+                "I need help",
+                "I cant take it anymore",
+                "hey",
+                "Namaste"
+            ],
+            "responses": [
+                "Namaste How are you doing today?",
+                "Namaste Smart Mate: your digital friend is here. Come on, let's talk!",
+                "Good to see you! Let's begin today's session",
+                "Namaste I am Smart Mate, ask me questions related to well-being, and I am here to help.",
+                "Is there something you want to talk about? I am  here for you!",
+                "Do you want to talk about something?",
+                "I am here to help you with mental health related issues like anxiety, depression, stress, eating disorders, Obsessive-Compulsive Disorder, Schizophrenia and Attention Deficit Hyperactivity Disorder",
+                "Hey! I am Smart Mate. I am here to oversee your well-being like managing stress, depression, and anxiety."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Goodbye! This was helpful!",
+                "Bye",
+                "byebye",
+                "I have to go",
+                "I should go thanks for talking.",
+                "Got to go",
+                "Goodbye",
+                "See you"
+            ],
+            "responses": [
+                "Goodbye, I hope you will take better care of yourself. Looking forward to our next session.",
+                " I Hope Smart Mate was helpful to you! Let's talk soon!",
+                "Bye. Today is your day. Rock the world!",
+                "I hope you feel better after talking! Take care of yourself, and remember to check in soon!",
+                "Goodbye, Hope you have a good day ahead :)",
+                "Remember, you're not alone. Reach out whenever you feel ready.",
+                "Remember to prioritize self-care.",
+                "Your well-being is important, so don't hesitate to return."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "bad",
+            "patterns": [
+                "I cant help but feel like a failure",
+                "I am a failure",
+                "I am sad",
+                "I am unhappy",
+                "I am very sad",
+                "I am struggling a lot in my daily life",
+                "I hate my life",
+                "I am not good",
+                "I am not well",
+                "I am unwell",
+                "I am in pain.",
+                "I am in tension",
+                "I am nervous"
+            ],
+            "responses": [
+                "I'm sorry to hear that you're feeling this way. It's important to remember that everyone faces challenges, and your worth is not defined by any setbacks. Everyone experiences periods of self-doubt and inadequacy. Remember that you have strengths and qualities that make you unique. Focus on the things you do well and the people who care about you. Just keep giving your best daily.",
+                "You sound like you have so much on your mind! Start writing a journal to relieve all stress and ease your mind. \nTo write a journal: \n1. Choose a time and place where you can write freely and without distractions. \n2. Start by writing about your thoughts, feelings, and experiences without judgment. \n3. Be honest and authentic in your writing. \n4. Write regularly, even if it's just for a few minutes each day. \n5. Use your diary journal as a tool for self-reflection, growth, and healing. \nMorever, you can try deep breathing exercises and practice meditation.",
+                "You seem to be Lost! I would suggest you to start a writing journal, it is really going to help you with understanding your own emotions. \nTo write a journal: \n1. Choose a time and place where you can write freely and without distractions. \n2. Start by writing about your thoughts, feelings, and experiences without judgment. \n3. Be honest and authentic in your writing. \n4. Write regularly, even if it's just for a few minutes each day. \n5. Use your diary journal as a tool for self-reflection, growth, and healing. \nYou can also try deep breathing or practice meditation.", 
+                "It's okay to feel down sometimes. Everyone experiences periods of self-doubt and inadequacy. Remember that you have strengths and qualities that make you unique. Focus on the things you do well and the people who care about you. Just keep giving your best daily. Try deep breathing and practice mindfulness.\nYou can also start journaling.",
+                "I'm sorry to hear that you're feeling this way. Dark days will make you shine brighter. It's okay to feel down sometimes. Everyone experiences periods of self-doubt and inadequacy. Remember that you have strengths and qualities that make you unique. Focus on the things you do well and the people who care about you. \nTry deep breathing and practice mindfulness.\nYou can also start journaling."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "extreme",
+            "patterns": [
+                "I cannot talk to anyone. I have attempted suicide before. I need help.",
+                "I have suicidal thoughts and tendencies",
+                "I hate myself, I do not want to exist anymore.",
+                "I do not wish to live anymore",
+                "I have no one in my life that I can talk to, I cannot live like this",
+                " Sometimes I want to end it all",
+                "It feels like the world has come down crumbling around me. I feel helpless",
+                "I feel nothingness in my soul, I have no reason to live",
+                "Suicide",
+                "I want to end it all",
+                "I want to die.",
+                "Thoughts of death or suicide"
+            ],
+            "responses": [
+                "Please understand that you are not alone and it is not too late. You need immediate proffesional attention. \nI am providing you with some resources, Call here it is a Suicide helpline: Patan Academic of Health Sciences - 9813476123, or call at 1166 it is a Toll Free Suicide Hotline. For more information, look up into: https://findahelpline.com/countries/np. For now, to calm yourself, practice deep breathing.",
+                "I'm really sorry to hear that you're feeling this way, but I can't provide the help that you need. \nI am providing you with some resources, Call here it is a Suicide helpline: Patan Academic of Health Sciences - 9813476123, or call at 1166 it is a Toll Free Suicide Hotline. For more information, look up into: https://findahelpline.com/countries/np. To calm yourself, practice deep breathing. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "breathing",
+            "patterns": [
+                "How to deep breathing",
+                "What is deep breathing",
+                "Deep breathing",
+                "How to relax",
+                "Relaxation breathing",
+                "breath",
+                "breathing"
+            ],
+            "responses": [
+                "Deep breathing involves taking slow, controlled breaths that engage the diaphragm and fill the lungs with air. It helps reduce stress, improve focus, and promote relaxation by activating the body's natural calming response. \n1. Find a comfortable seated or lying position. \n2. Place one hand on your chest and the other on your stomach. \n3. Inhale slowly and deeply through your nose, allowing your stomach to expand. \n4. Exhale slowly and completely through your mouth, feeling your stomach contract. \n5. Repeat for several minutes, focusing on the rise and fall of your breath.",
+                "Deep breathing exercises can help reduce stress and promote relaxation. \n1. Find a comfortable seated or lying position. \n2. Place one hand on your chest and the other on your stomach.\n3. Inhale slowly and deeply through your nose, allowing your stomach to expand. \n4. Exhale slowly and completely through your mouth, feeling your stomach contract. \n5. Repeat for several minutes, focusing on the rise and fall of your breath. ",
+                "1. Find a comfortable position, sitting or lying down. \n2. Close your eyes and focus on your breath. \n3. Inhale slowly and deeply through your nose, filling your lungs. \n4. Hold your breath for a few seconds. \n5. Exhale slowly and completely through your mouth. \n6. Repeat steps 1-5 for several minutes. \nThis technique helps calm the nervous system and promote relaxation."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "timebreathing",
+            "patterns": [
+                "what is the best time to do and how long to do breathing exercises?",
+                "when to do breathing exercises?",
+                "when to do deep breathing",
+                "best time to do deep breathing"
+            ],
+            "responses": [
+                "The best time to do breathing exercises can vary depending on your personal schedule, preferences, and goals. \nHere are a few potential optimal times to consider: \nMorning: Many people find that practicing breathing exercises in the morning helps set a positive tone for the day ahead. It can also help wake up the body and mind, increasing alertness and focus. \nBefore Bed: Doing breathing exercises before bed can help promote relaxation and calmness, making it easier to fall asleep and potentially improving sleep quality. \nDuring Stressful Times: If you're feeling stressed or anxious during the day, taking a few minutes to practice breathing exercises can help calm your mind and reduce stress levels. \nBefore or After Physical Activity: Breathing exercises can be beneficial before engaging in physical activity to help prepare the body and focus the mind. They can also be helpful after exercise to aid in recovery and promote relaxation. \nThroughout the Day: Incorporating short breathing exercises into your daily routine, such as during breaks at work or while commuting, can help maintain a sense of calm and mindfulness throughout the day. \nUltimately, the best time to do breathing exercises is whenever you can commit to making it a consistent part of your routine. Experiment with different times of day to see what works best for you and when you feel the most benefit from the practice."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "good",
+            "patterns": [
+                "I feel happy!",
+                "I am better than before!",
+                "I am happy!",
+                "I feel good these days",
+                "Today was a good day",
+                "I am at the top of world",
+                "I am great",
+                "I'm feeling fantastic!",
+                "I am delighted",
+                "I am in good mood",
+                "i am suffering from success"
+            ],
+            "responses": [
+                "I'm so glad to hear that you're feeling better than before. ",
+                "Wow that is so great, I am happy our sessions have been working out for you!.",
+                "That's the way to go. Also remember to spread happiness. Celebrate your day!",
+                "It feels so good to know that you are in good mood. Remember to love yourself.",
+                "That is great to hear. Go and enjoy your day! Do not forget to write a journal at the end of day to identify your happy triggers."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "loneliness",
+            "patterns": [
+                "I feel so alone", 
+                "I don't have anyone to talk to", 
+                "I am lonely",
+                "I have no friends",
+                "I am alone",
+                "I have no one"
+            ],
+            "responses": [
+                "I'm here for you. What about journalling? \n1. Choose a time and place where you can write freely and without distractions. \n2. Start by writing about your thoughts, feelings, and experiences without judgment. \n3. Be honest and authentic in your writing. \n4. Write regularly, even if it's just for a few minutes each day. \n5. Use your diary journal as a tool for self-reflection, growth, and healing.  ", 
+                "Loneliness can be a difficult emotion to navigate. \nRemember that you are not alone in feeling this way. \nConsider reaching out to friends, family, or a mental health professional for support and connection. \nEngaging in activities that bring you joy and fulfillment can also help alleviate feelings of loneliness.",
+                " What do you love to do in leisure time? Do that. ",
+                "Feeling lonely and lacking friends can be challenging. \nRemember that you are not alone in this experience. \nConsider joining social groups, pursuing hobbies, or volunteering to connect with like-minded individuals.\nWhat do you love to do in your free time? I would suggest you to involve your time practicing your hobbies."
+            ],
+                
+            "context_set": ""
+        },
+        {
+            "tag": "nojournaling",
+            "patterns": [
+                "I dont like journaling", 
+                "I hate to journal",
+                "I hate journalling"
+            ],
+            "responses": [
+                "It is okay if you do not like journaling, try to do something that you love? Dance, Sing, Listen to Music, Take a Stroll across your neighbourhood, Draw, Paint or whatever you like to do.\n Still do try to write a little everyday in your diary."
+            ],
+                
+            "context_set": ""
+        },
+        {
+            "tag": "hobbies",
+            "patterns": [
+                "I like to draw.", 
+                "I like to paint.", 
+                "I like to dance.",
+                "I like code.",
+                "I like to cook",
+                "I like baking",
+                "I love to travel.",
+                "I love to listen to music",
+                "I like reading.",
+                "I like to sleep",
+                "I like yoga",
+                "I like to meditate",
+                "My hobby is to ..."
+            ],
+            "responses": [
+                "That's great! Pursuing activities you love is an excellent way to find joy and fulfillment.", 
+                "There you go! Start doing it. You will feel more better."],
+            "context_set": "loneliness"
+        },
+        {
+            "tag": "Nohobbies",
+            "patterns": [
+                "I have no hobbies", 
+                "I like doing nothing", 
+                "I do nothing in leisure time.",
+                "I like nothing",
+                "I dont want to do anything"
+            ],
+            "responses": [
+                "Not everyone has specific hobbies, and that's perfectly fine. Maybe you can try some maybe dancing, traveling, sightseeing, reading, drawing may help.", 
+                "It's okay to feel that way sometimes. Relax and meditate and ease your mind.",
+                "Feeling unmotivated and lacking the desire to engage in activities is common. It could be a sign of burnout, depression, or simply a temporary phase. Consider these tips: - Break down tasks into smaller steps. - Set realistic goals. - Reward yourself for accomplishments.  - Practice self-care activities like exercise and meditation."],
+            "context_set": "loneliness"
+        },
+        {
+            "tag": "jrnl",
+            "patterns": [
+                "how to journal", 
+                "teach me to journal", 
+                "I want to journal"
+            ],
+            "responses": [
+                " \nTo write a journal: \n1. Choose a time and place where you can write freely and without distractions. \n2. Start by writing about your thoughts, feelings, and experiences without judgment. \n3. Be honest and authentic in your writing. \n4. Write regularly, even if it's just for a few minutes each day. \n5. Use your diary journal as a tool for self-reflection, growth, and healing."],
+            "context_set": "loneliness"
+        },
+        {
+            "tag": "stress_management",
+            "patterns": [
+                "I am feeling overwhelmed", 
+                "How can I manage stress?",
+                "I am stressed",
+                "I need stress relief techniques",
+                "I have stress",
+                "I feel stressed"],
+            "responses": [
+                "I'm sorry to hear that you're feeling overwhelmed. It's important to acknowledge your feelings. \nOne effective way to manage stress is to break tasks into smaller, more manageable steps. \nAdditionally, yoga, deep breathing exercises and mindfulness can help.", 
+                "It's important to find healthy ways to cope with stress. \nIncorporating relaxation techniques like yoga, deep breathing, meditation, or even a short walk can also make a significant difference.",
+                "Have you considered trying activities like yoga, meditation, or even a simple daily walk? \nThese practices can help both your physical and mental well-being.",
+                "\nOne effective way to manage stress is to break tasks into smaller, more manageable steps. \nAdditionally, yoga, deep breathing exercises and mindfulness can help. \nConsider exploring activities that align with your interests, such as reading, painting, playing an instrument, learning a new skill, or engaging in sports. \nHobbies offer opportunities for relaxation, stress relief, personal growth, and connecting with others who share similar passions."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "wellbeing",
+            "patterns": [
+                "what is wellbeing",
+                "wellbeing",
+                "what is mental wellbeing",
+                "mental wellbeing"],
+            "responses": [
+                "Mental well-being refers to a state of psychological and emotional health where individuals can think clearly, manage their emotions, and cope with life's challenges. It involves feeling good about oneself, having positive relationships, and finding meaning and purpose in life.",
+                "Mental well-being encompasses emotional, psychological, and social well-being. It involves feeling good about oneself, having positive relationships, and being able to cope with life's challenges. Practices like mindfulness, self-care, and seeking support when needed can contribute to overall mental well-being."],
+            "context_set": ""
+        },
+        {
+            "tag": "positivilty",
+            "patterns": [
+                "how to be positive in life?",
+                "how to remain poisitve",
+                "how to be positive",
+                "How to improve my mood",
+                "i want to be positive"],
+            "responses": [
+                "One effective strategy is practicing gratitude regularly, acknowledging and appreciating the positive aspects of one's life. Additionally, focusing on the present moment through mindfulness helps cultivate awareness and acceptance of thoughts and feelings without judgment. Surrounding oneself with supportive and uplifting individuals who encourage personal growth and positivity can significantly impact one's outlook. Moreover, challenging negative thinking patterns and replacing them with more balanced and realistic perspectives can help shift towards a positive mindset. Engaging in activities that bring joy and fulfillment, setting meaningful goals, and practicing self-compassion are essential components of fostering positivity. Furthermore, extending kindness and empathy to others through acts of generosity or volunteering not only benefits others but also enhances personal well-being. You can also start writing journal to understand yourslef better."],
+            "context_set": ""
+        },
+        {
+            "tag": "mindfulness",
+            "patterns": [
+                "What is mindfulness?", 
+                "Why mindfuless?",
+                "Tell me more about the idea behind mindfulness.",
+                "What role does mindfulness play in stress reduction?"
+            ],
+            "responses": [
+                "Mindfulness is the practice of being fully present in the current moment, without judgment. It involves paying attention to your thoughts and feelings, as well as the world around you, in a focused and non-reactive way. It can bring about a greater sense of awareness and connection to the present.",
+                "The idea behind mindfulness is to cultivate a heightened state of awareness and presence in each moment. By practicing mindfulness, individuals can learn to observe their thoughts without becoming entangled in them, leading to increased clarity, emotional resilience, and a greater sense of peace in daily life.",
+                "Mindfulness plays a significant role in stress reduction by encouraging you to bring your attention to the present moment. It helps break the cycle of worry about the future or dwelling on the past. Through mindfulness practices like meditation and mindful breathing, you can develop the skills to manage stress more effectively and create a sense of calm and balance in their lives."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "meditate",
+            "patterns": [
+                "How to meditate?", 
+                "Meditation",
+                "Meditation technique"
+            ],
+            "responses": [
+                "Meditation involves focusing your attention and calming your mind. Here's a simple technique: \n1. Find a quiet place and sit comfortably. \n2. Close your eyes and take a few deep breaths. \n3. Focus on your breath as it enters and leaves your body. \n4. When your mind wanders, gently bring it back to your breath. \n5. Start with a few minutes each day and gradually increase the duration.",
+                "\n1. Find a quiet place and sit comfortably. \n2. Close your eyes and focus on your breath. \n3. Notice the rise and fall of your chest as you inhale and exhale. \n4. When your mind wanders, gently bring it back to your breath. \n5. Start with a few minutes each day and gradually increase the duration."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "hatemeditate",
+            "patterns": [
+                "I hate meditating", 
+                "I hate meditation",
+                "i dont like meditation"
+            ],
+            "responses": [
+                "It's okay to dislike meditation. It's not for everyone. Finding other ways to relax and de-stress, such as spending time in nature, listening to music, or engaging in hobbies, can be just as beneficial.",
+                "It will take time, but gradually you will enjoy it. \n 1. Find a quiet place and sit comfortably. \n2. Close your eyes and focus on your breath. \n3. Notice the rise and fall of your chest as you inhale and exhale. \n4. When your mind wanders, gently bring it back to your breath. \n5. Start with a few minutes each day and gradually increase the duration."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "self_esteem",
+            "patterns": [
+                "I struggle with self-esteem", 
+                "How can I improve my self-worth?", 
+                "I don't feel good about myself",
+                "I have no confidence"
+            ],
+            "responses": [
+                "I'm sorry to hear that you're feeling this way. It's important to know that you are worthy and deserving of self-love.", 
+                "Lack of confidence is a common challenge, but it can be overcome. Together, we can explore techniques to build your confidence and help you recognize your capabilities, start writing what you love and what you are proud of. You have strengths waiting to be acknowledged."],
+            "context_set": ""
+        },
+        {
+            "tag": "relationships",
+            "patterns": [
+                "I'm having problems in my relationship", 
+                "How can I improve my relationships?", 
+                "I feel disconnected from my loved ones",
+                "I am having fight with my friends",
+                "I am having fight with my family"
+            ],
+            "responses": [
+                "I'm sorry to hear that you're facing challenges. Communication is often key in resolving issues. Try to have an open and honest conversation with your partner, friends or family about your concerns and feelings.", 
+                "Improving relationships involves a combination of communication, understanding, and empathy. Consider expressing your thoughts and feelings to your loved ones and actively listening to their perspectives. ",
+                "Feeling disconnected can be tough. Reconnecting often involves spending quality time together, actively listening, and expressing your feelings. Try to initiate a conversation with your loved ones about the sense of disconnection you're feeling. Hope this helps!"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "anxietysymp",
+            "patterns": [
+                "I feel anxious", 
+                "I am feeling anxious",
+                "I think I have anxiety", 
+                "anxiety",
+                "I am anxious"
+            ],
+            "responses": [
+                "If you feel anxious, check your symptoms. \nAnxiety Symptoms can include: \n- Excessive worry or fear  \n- Abdominal Discomfort \n- Panic attacks \n- Palpitation \n- Fear of Impending Doom \n- Shaky limbs and sweaty palms \n- Feeling restless \n- Difficulty concentrating  \n- Muscle tension or headaches \n- Difficulty sleeping. \nWhich one are you feeling? \nIf you do not feel any of such symptoms it might be stress. Note: Do not overthink your symptoms"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "palpitation",
+            "patterns": [
+                "palpitation", 
+                "what is palpitation?",
+                "i feel my heartbeat is fast",
+                "chest discomfort",
+                "I am having irregular heart beats",
+                "fast heartbeats"
+            ],
+            "responses": [
+                "Palpitations are a sensation of a rapid or irregular heartbeat. They can be caused by various factors, including stress, anxiety, certain medications, and underlying heart conditions. \nTry to practice mindful meditation to help you with it. You can also distract yourself with activities that you love. If palpitations are persistent or accompanied by other symptoms such as chest pain, shortness of breath, or dizziness, it's important to seek medical attention, if you are based in Kathmandu, you can visit Patan Hospital and book an appointment for Dr. Nidesh Sapkota, to rule out any underlying health issues. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "impendingDoom",
+            "patterns": [
+                "what is fear of impending doom", 
+                "I feel like something bad is about to happen.",
+                "Something really bad is going to happen"
+            ],
+            "responses": [
+                "Fear of impending doom is when someone feels like something really bad is about to happen, even though there's no obvious reason for it. It's like a strong sense of dread or feeling that disaster or death is looming nearby. \nThis fear can make someone feel really anxious, with symptoms like a fast heartbeat, sweating, and feeling like things aren't real. It's often a sign of anxiety or panic disorders.  If you're feeling overwhelmed by a fear of impending doom, try taking deep breaths and grounding yourself in the present moment. Reach out to someone you trust for support and consider engaging in relaxation techniques like meditation or yoga. If you stll are not able to overcome this, consult with doctors around you. If you are based in Kathmandu, do book an appointment for Dr. Nidesh Sapkota and his team. He is a neuro-psychiatrist, and he will definitely help you.  "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "excessivefear",
+            "patterns": [
+                "excessive fear or worry", 
+                "I am worried",
+                "i have excessive fear"
+            ],
+            "responses": [
+                "Excessive fear and worry can feel overwhelming, but there are steps you can take to manage these emotions. \nStart by practicing mindfulness and relaxation techniques to calm your mind and body. \nChallenge negative thoughts by questioning their validity and evidence. \nLimit exposure to negative news and social media to reduce fueling your anxiety. \nFocus on the present moment and what you can control instead of dwelling on the past or worrying about the future. \nMaintain a healthy lifestyle with nutritious eating, regular exercise, and sufficient sleep. \nSet boundaries to prioritize self-care and consider therapy if anxiety significantly impacts your daily life."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "restlessness",
+            "patterns": [
+                "i feel restless", 
+                "I feel tensed",
+                "I am impatient"
+            ],
+            "responses": [
+                "Feeling restless can be uncomfortable, but there are ways to help ease this sensation. \nEngaging in physical activity like walking or yoga can release pent-up energy and promote relaxation. \nDeep breathing exercises and mindfulness meditation can also calm your mind and body, helping you feel more grounded in the present moment. \nAdditionally, participating in relaxing activities such as reading or listening to music can provide a sense of comfort and distraction. \nEstablishing a regular routine and limiting stimulants like caffeine can contribute to a more balanced and calm state of mind."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "routinecollege",
+            "patterns": [
+                "i have lots of homework", 
+                "I have lots of college work",
+                "how to make routine in college life"
+            ],
+            "responses": [
+                "Begin by setting clear priorities, such as attending classes, studying, completing assignments, and taking care of your well-being. \nUse a planner or calendar to create a weekly schedule, allocating specific time slots for each task and activity. \nBe realistic about how much time you need for studying and other commitments, and remember to include breaks for relaxation and self-care. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "routinework",
+            "patterns": [
+                "i have lots of work at office", 
+                "I can't take more of office stress",
+                "my work life is too stressful"
+            ],
+            "responses": [
+                "Start by setting clear boundaries between work and personal time, establishing specific work hours, and sticking to them as much as possible. \nPrioritize tasks by making a list and breaking down larger projects into smaller, manageable steps. \nPlan your day by scheduling work tasks, meetings, and personal commitments, ensuring you allocate time for both focused work and relaxation. \nIncorporate regular breaks throughout your workday to prevent burnout and maintain productivity. \nAdditionally, set aside personal time for activities that bring joy and fulfillment, such as exercise, hobbies, or spending time with loved ones. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "yogaroutine",
+            "patterns": [
+                "when to do yoga"
+            ],
+            "responses": [
+                "The ideal time to practice yoga varies depending on your schedule and preference. \nSome people prefer to start their day with yoga to invigorate their body and mind, setting a positive tone for the day. \nMorning yoga can boost energy levels, improve focus, and enhance overall well-being. \nOthers find that practicing yoga during midday breaks helps alleviate stress and fatigue, providing a refreshing pause and mental clarity to tackle the rest of the day's tasks. \nAlternatively, practicing yoga in the evening can promote relaxation, unwind from daily activities, and prepare for restful sleep. \nWhether it's morning, midday, or evening, incorporating regular yoga practice into your routine can offer physical, mental, and emotional benefits. \nExperimenting with different times of day can help determine what works best for you, and listening to your body's cues is key to finding the optimal time for your practice."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "yoga",
+            "patterns": [
+                "how to start yoga",
+                "i am a beginner to yoga",
+                "how to do yoga",
+                "suggest me some yoga postures"
+            ],
+            "responses": [
+                "As a beginner to yoga, it's recommended to start with styles and classes that are specifically designed for newcomers to the practice. \nHatha yoga is an excellent option for beginners, as it focuses on foundational poses and breathing techniques in a gentle and accessible manner. \nAnother beginner-friendly style is Vinyasa yoga, which involves flowing sequences of poses coordinated with the breath. \nYin yoga and restorative yoga are also great choices for beginners, as they emphasize relaxation, flexibility, and mindfulness through passive stretches and supported poses. \nAdditionally, attending beginner yoga classes either in-person or online can provide structured guidance and instruction tailored to beginners' needs. \nRegardless of the style you choose, remember to listen to your body, go at your own pace, and practice self-compassion as you explore the practice of yoga."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "yogaformh",
+            "patterns": [
+                "yoga for mental health",
+                "how to do yoga for mental health",
+                "how to be active",
+                "what exercise should I do?"
+            ],
+            "responses": [
+                "Find a serene space where you can practice without distractions. \nStart by focusing on your breath, incorporating deep breathing exercises to soothe the mind and body. \nEngage in mindfulness techniques, embracing the present moment without judgment. \nAdditionally, you can look up to: https://www.youtube.com/watch?v=COp7BR_Dvps. It is 30 minute yoga session for mental health. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "abdominal",
+            "patterns": [
+                "abdominal", 
+                "what is abdominal"
+            ],
+            "responses": [
+                "Abdominal refers to the region of the body between the chest and the pelvis. It contains organs such as the stomach, intestines, liver, pancreas, and kidneys. The abdominal muscles support the spine, protect internal organs, and aid in digestion and breathing."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "concentration",
+            "patterns": [
+                "i have difficulty in concentration", 
+                "how to concentrate"
+            ],
+            "responses": [
+                "I understand that struggling with concentration can be challenging. \nTo address this issue, establishing a structured routine can provide stability and make tasks feel more manageable. \nMinimizing distractions in your environment, such as noise or clutter, can also help improve focus. \nAdditionally, breaking tasks into smaller, more manageable steps and prioritizing them based on importance can make them feel less overwhelming. \nIt's essential to take regular breaks, practice mindfulness techniques, do some yoga for mental health to calm racing thoughts, and stay physically active to improve cognitive function. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "discomfort",
+            "patterns": [
+                "I feel discomfort", 
+                "I feel discomfortable",
+                "Discomfort"
+            ],
+            "responses": [
+                "Feeling uncomfortable can be a sign of anxiety or stress. Try to identify what's causing your discomfort and address it if possible. Practice relaxation techniques like deep breathing or meditation to calm your mind and body. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "abdominaldiscomfort",
+            "patterns": [
+                "abdominal discomfort", 
+                "what is abdominal discomfort",
+                "i think i have abdominal discomfort"
+            ],
+            "responses": [
+                "Abdominal discomfort can have various causes, ranging from anxiety, indigestion to more serious medical conditions. If the discomfort persists or worsens, it's important to seek medical attention to determine the underlying cause and receive appropriate treatment. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "overcome_anxiety",
+            "patterns": [ 
+                "How can I cope with anxiety?", 
+                "I have anxiety issues",
+                "what are relaxation techniques to ease anxiety.",
+                "how to manage anxiety",
+                "techniques to manage anxiety",
+                "how can i overcome anxiety.",
+                "how to avoid anxiety",
+                "i have shaky limbs, what should i do?"
+            ],
+            "responses": [
+                "Dealing with anxiety can be tough. Some techniques to manage and reduce anxiety are physical exercises, yoga for mental health, deep breathing, meditation are progressive muscle relaxation technique.", 
+                "You're not alone in this. I'm here to help you navigate through your anxiety. Do regular exercises, try yoga for mental health, deep breathing, and also try Progressive Muscle Relaxation Technique. ",
+                "Practice regular exercisess and meditation. It will make you feel better. You can also try doing yoga for mental health, deep breathing, and Progressive Muscle Relaxation Technique. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "pmrt",
+            "patterns": [
+                "what is pmr", 
+                "what is pmrt",
+                "what is progressive muscle relaxation technique", 
+                "progressive muscle relaxation technique",
+                "Progressive Muscle Relaxation",
+                "how to do progressive muscle relaxation",
+                "process of progressive muscle relaxation technique"
+            ],
+            "responses": [
+                "Progressive Muscle Relaxation teaches you how to relax your muscles through a two-step process. \nFirst, you systematically tense particular muscle groups in your body, such as your neck and shoulders. \nNext, you release the tension and notice how your muscles feel when you relax them. It helps a lot with anxiety. \nYou will find several videos related to this on youtube.", 
+                "Get Comfortable: Find a quiet place to sit or lie down.\n Breathe Deeply: Take a few deep breaths to relax.\nTense and Relax: Tense a muscle group (e.g., hands) for 5-10 seconds, then quickly relax.\nFeel the Difference: Pay attention to the contrast between tension and relaxation.\nRest for 10-20 Seconds: Allow the muscle to rest for a short time.\nRepeat: Move on to the next muscle group and repeat the process.\nEnjoy Overall Relaxation: Once all muscle groups are done, take a moment to enjoy the relaxed feeling.\nPractice Regularly: Consider making this a regular practice for stress relief.\n Remember, if you have any health concerns or conditions, it's wise to consult with a healthcare professional before trying new relaxation techniques. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "longpmrt",
+            "patterns": [
+                "how long Progressive Muscle Relaxation Technique should be done", 
+                "for how long pmrt should be done"
+            ],
+            "responses": [
+                "Progressive muscle relaxation typically takes around 15-20 minutes to complete. It involves systematically tensing and releasing different muscle groups in the body to promote relaxation and reduce stress."],
+            "context_set": ""
+        },
+        {
+            "tag": "stressanx",
+            "patterns": [
+                "difference between stress and anxiety", 
+                "stress vs anxiety",
+                "Am I stressed or am i having anxiety."
+            ],
+                
+            "responses": [
+                "Stress is a natural response to demands and challenges, while anxiety is a persistent feeling of worry and fear, often accompanied by physical symptoms. \nStress is usually short-term and situational, while anxiety can be chronic and interfere with daily life. \nStress can be managed through coping mechanisms, while anxiety often requires professional help.",
+                "Anxiety is characterized by a pervasive feeling of worry, nervousness, or unease about uncertain outcomes or potential threats. It often persists over time and can lead to excessive rumination and difficulty controlling anxious thoughts. Physical symptoms such as rapid heartbeat, sweating, and muscle tension may accompany anxiety, along with cognitive effects like impaired concentration and decision-making. \nOn the other hand, stress is typically a response to specific external pressures or demands, triggering short-term feelings of frustration, anger, or nervousness. While stress can manifest similarly to anxiety with physical symptoms and cognitive impairments, it is often more transient, subsiding once the stressor is resolved or removed. Both anxiety and stress can impact daily functioning and quality of life, but anxiety tends to involve more persistent worry and interference with various aspects of life, whereas stress is more tied to specific situations or events. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "motivation",
+            "patterns": [
+                "I lack motivation", 
+                "How can I find motivation?", 
+                "I feel unmotivated",
+                "I am not motivated",
+                "I lack encouragement",
+                "I have no motivation"
+            ],
+                
+            "responses": [
+                "It's completely normal to feel unmotivated at times. One effective approach is to break down your goals into smaller, more manageable tasks. \nCelebrate small achievements along the way to build momentum. ", 
+                "Feeling unmotivated is a common experience. One strategy is to identify the aspects of your goal that genuinely interest or excite you. \nFocusing on the aspects that align with your values can help reignite motivation. "],
+            "context_set": ""
+        },
+        {
+            "tag": "self_care",
+            "patterns": [
+                "How can I practice self care?", 
+                "I need self-care tips", 
+                "What are some self-care activities?",
+                "Self love",
+                "self-love"
+            ],
+            "responses": [
+                "Practicing self-care and self-love is important for your well-being. \nConsider activities like taking a warm bath, going for a walk, or spending time with loved ones. Finding what brings you joy and relaxation is key.\n Additionally you can try yoga, pmrt, meditation and deep breathing", 
+                "Taking care of yourself is crucial. \nSome ideas include setting aside time for activities you love, practicing mindfulness or meditation, and ensuring you get enough sleep.\n Additionally you can try yoga, pmrt, meditation and deep breathing",
+                "Self-care is all about nurturing your physical and mental well-being. \nActivities like reading a book, practicing deep breathing exercises, or engaging in a hobby can be beneficial.\n Additionally you can try yoga, pmrt, meditation and deep breathing"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "depressionsymp",
+            "patterns": [
+                "I think I have depression", 
+                "What are depression symptomos", 
+                "I feel i am depressed",
+                "I am depressed", 
+                "I feel severly depressed",
+                "I have depression"
+            ],
+            "responses": [
+                "Are you really depressed? \nCheck your symptoms: \nPersistent sadness or feelings of emptiness, \nLoss of interest in activities that were once enjoyable, \nDifficulty sleeping \nLack of energy, \nFeelings of worthlessness, \nDifficulty concentrating, \nFeeling Restless, \nThoughts of death or suicide, or suicide attempts. \nDo you have any? "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "feelingempty",
+            "patterns": [
+                "I feel empty", 
+                "i am void",
+                "i am always sad",
+                "i feel always sad",
+                "persistent sadness",
+                "feeling of emptiness",
+                "I have no interest in anything",
+                "i do not find anything enjoyable anymore",
+                "I lack energy",
+                "I feel worthless",
+                "I lack energy",
+                "I have no energy"
+            ],
+            "responses": [
+                "Feeling empty and lacking energy can be overwhelming, but it's important to remember that you're not alone. Have you tried practicing self-care activities such as going for a walk, spending time in nature, or journaling about your thoughts and feelings? Sometimes, these small actions can help improve our mood and sense of well-being.  \nAdditionally, you can try to do yoga, meditate, and deep breathing exercises to release tension."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "depression",
+            "patterns": [
+                "How can I cope up with depression", 
+                "How to manage depression"
+            ],
+            "responses": [
+                "I'm sorry to hear that you're experiencing depression. \nEngage in activities that you enjoy or used to enjoy, even if they feel challenging at the moment. \nTry to maintain a routine, prioritize self-care, and stay connected with supportive friends or family members. \nRemember that it's okay to ask for help and that you deserve support as you navigate through this difficult time. \nYou're not alone, and there is hope for recovery. \nYou can head upto journal section to make your routine and save it for later. If you have specific symptoms, please let me know."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "sadvsdep",
+            "patterns": [
+                "Am I sad or depressed?", 
+                "Sad vs depression"
+            ],
+            "responses": [
+                "Sadness is temporary and often triggered by specific events, whereas depression can last for weeks or months, impacting daily functioning and accompanied by physical symptoms like changes in appetite or sleep patterns. While sadness typically resolves on its own, depression requires professional diagnosis and treatment, such as therapy or medication."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "anxvsdep",
+            "patterns": [
+                "Am I anxious or depressed?", 
+                "Anxiety vs depression"
+            ],
+            "responses": [
+                "Anxiety involves excessive worry or fear about future events, often accompanied by physical symptoms like restlessness or rapid heartbeat. Depression, on the other hand, entails persistent feelings of sadness, hopelessness, or emptiness, often accompanied by physical symptoms such as fatigue or changes in appetite. For example: For instance, having anxiety make you worry excessively about upcoming exams, struggle to concentrate, and feel physically tense. Despite these feelings, you still continue studying and seek reassurance. In contrast, being depressed may feel persistently sad and hopeless, lose interest in activities, and struggle with fatigue and changes in appetite."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "stressvsdep",
+            "patterns": [
+                "Am I stressed or depressed?", 
+                "Stress vs depression"
+            ],
+            "responses": [
+                "For example, if you are experiencing stress you may feel overwhelmed by upcoming exams, leading to temporary feelings of tension and worry. Once exams are over, your stress goes away. In contrast, if you are experiencing depression you may struggle with persistent feelings of sadness and hopelessness, regardless of academic stressors. "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "trauma",
+            "patterns": [
+                "I've experienced trauma", 
+                "How can I cope with trauma?", 
+                "I need help with past traumas",
+                "I have trauma"
+            ],
+            "responses": [
+                "I'm sorry to hear that you've experienced trauma. Coping with trauma can be challenging, and it's important to prioritize self-care. Engaging in self-care practices like mindfulness meditation, gentle exercise, or spending time in nature can promote relaxation and well-being. Educating oneself about trauma and its effects can also aid in understanding and normalizing reactions. Establishing a safe environment with boundaries and positive influences is essential, as is finding healthy ways to express emotions through journaling, art, or music. Grounding techniques help manage overwhelming feelings, and setting realistic goals while staying connected to supportive networks can foster resilience. Remember, coping with trauma is a process, and it's okay to seek professional help when needed.", 
+                "Coping with trauma is a journey, and it's okay to seek help. Engaging in therapy, such as cognitive-behavioral therapy (CBT) or eye movement desensitization and reprocessing (EMDR), can be effective in processing and overcoming trauma. Moreover, engaging in self-care practices like mindfulness meditation, gentle exercise, or spending time in nature can promote relaxation and well-being. Educating oneself about trauma and its effects can also aid in understanding and normalizing reactions. Establishing a safe environment with boundaries and positive influences is essential, as is finding healthy ways to express emotions through journaling, art, or music. Grounding techniques help manage overwhelming feelings, and setting realistic goals while staying connected to supportive networks can foster resilience. Remember, coping with trauma is a process, and it's okay to seek professional help when needed.",
+                "I'm sorry to hear that you're experiencing trauma. Trauma can have a significant impact on mental well-being, but you're not alone in this. It's essential to seek support from a mental health professional who can help you navigate through your feelings and experiences in a safe and understanding environment. Moreover, engaging in self-care practices like mindfulness meditation, gentle exercise, or spending time in nature can promote relaxation and well-being. Educating oneself about trauma and its effects can also aid in understanding and normalizing reactions. Establishing a safe environment with boundaries and positive influences is essential, as is finding healthy ways to express emotions through journaling, art, or music. Grounding techniques help manage overwhelming feelings, and setting realistic goals while staying connected to supportive networks can foster resilience. Remember, coping with trauma is a process, and it's okay to seek professional help when needed."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "CBT",
+            "patterns": [
+                "What is CBT?", 
+                "What is Cognitive Behavioral Therapy", 
+                "Cognitive Behavioural Therapy",
+                "cbt"
+            ],
+            "responses": [
+                "It's a therapeutic approach that helps individuals identify and change negative thought patterns and behaviors. By addressing the connection between thoughts, feelings, and actions, CBT aims to promote positive changes in your mental well-being. \n Some common aspect of CBT are: \n 1. Reflect on your Daily Schedule.\n 2. Have a habit of journaling. \n 3. Set Smaller and Realisitc Goals.", 
+                "Cognitive Behavioral Therapy, commonly known as CBT, is a form of psychotherapy that emphasizes the role of thoughts in influencing emotions and behaviors. It's goal-oriented and involves identifying and challenging negative thought patterns to develop healthier perspectives and coping mechanisms.\n Some common aspect of CBT are: \n 1. Reflect on your Daily Schedule.\n 2. Have a habit of journaling. \n 3. Set Smaller and Realisitc Goals."],
+            "context_set": ""
+        },
+        {
+            "tag": "fight",
+            "patterns": [
+                "I had a fight with my family, mother, mom, father, dad, sister, today", 
+                "I had a fight with my friend"
+            ],
+            "responses": 
+            ["Experiencing a disagreement with your dear ones can be emotionally challenging, but it's important to address the situation constructively. Take a moment to step back and process your feelings, allowing yourself time to gain perspective. Reflect on the root causes of the conflict and consider how it made you feel. When you're ready, approach them with an open and honest conversation, choosing a time when both of you can talk calmly. Listen attentively to their perspective, validating their feelings even if you don't agree. Seek common ground and work together to find a resolution that respects both of your needs. If necessary, offer a sincere apology and take responsibility for your actions. Use this experience as an opportunity for personal growth and learning, striving to strengthen your friendship through effective communication and mutual understanding. Remember, conflicts are a natural part of any relationship, and with patience and effort, you can navigate through them together."],
+            "context_set": ""
+        },
+        {
+            "tag": "sleep",
+            "patterns": [
+                "I have trouble sleeping", 
+                "How can I improve my sleep?", 
+                "I suffer from insomnia",
+                "I cant sleep",
+                "I cannot sleep"],
+            "responses": [
+                "Difficulty sleeping, also known as insomnia, can be caused by various factors, including stress, anxiety, caffeine, and an irregular sleep schedule. \nEstablishing a regular sleep-wake cycle, creating a relaxing bedtime routine, and avoiding screen time before bed can help improve sleep quality. \nIf insomnia persists, consulting a healthcare professional is recommended to rule out any underlying medical conditions or explore other treatment options. If you are based in Kathmandu, do reach out to Dr. Nidesh Sapkota and his team for help. ", 
+                "Difficulty sleeping, also known as insomnia, can be caused by various factors, including stress, anxiety, caffeine, and an irregular sleep schedule. \nTo improve sleep, try establishing a regular sleep-wake cycle, creating a relaxing bedtime routine, and avoiding caffeine and alcohol before bed."],
+            "context_set": ""
+        },
+        {
+            "tag": "substance_abuse",
+            "patterns": [
+                "I'm struggling with substance abuse", 
+                "How can I overcome addiction?", 
+                "I need help with substance misuse"],
+            "responses": [
+
+                "Identify triggers: \nUnderstand what situations or emotions lead to substance use. \nDevelop coping mechanisms: \nPractice healthy ways to manage stress, cravings, and negative emotions. \nBuild a support system: \nSurround yourself with supportive family, friends, or a recovery community. \n Focus on overall well-being: \nEngage in self-care activities, such as exercise, yoga, deep breathing and sleep, to improve physical and mental health."],
+            "context_set": ""
+        },
+        {
+            "tag": "triggers",
+            "patterns": [
+                "How to indentify my triggers", 
+                "How to know if something is triggering me", 
+                "Identify triggers"],
+            "responses": [
+                "Identifying triggers involves paying attention to your thoughts, feelings, and behaviors in situations that cause emotional distress. \nKeep a journal to track patterns, noting events, thoughts, and physical sensations that precede emotional reactions. \nOver time, you can recognize specific triggers and develop strategies to manage them effectively."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "body_image",
+            "patterns": [
+                "I have body image issues", 
+                "How can I improve my body image?", 
+                "I feel insecure about my appearance",
+                "I am fat",
+                "I am too thin"],
+            "responses": [
+                "Your feelings about your body are valid. If you feel this way it is totally normal, all you need to do is practice self-acceptance.\nRemember, you are worthy of love and respect just as you are. \nFocus on growth rather than perfection, setting realistic expectations for yourself. \nSurround yourself with supportive people who appreciate you for who you are. \nTake time for self-care activities that nourish your mind, body, and soul. \nRemember quality sleep, healthy diet and physical activity will make you feel a lot better. \nDo you think you have eating problem? Do you binge eat or have fear of gaining weight?", 
+                "It's important to feel comfortable in your own skin. all you need to do is practice self-acceptance.\nRemember, you are worthy of love and respect just as you are. \nFocus on growth rather than perfection, setting realistic expectations for yourself. \nSurround yourself with supportive people who appreciate you for who you are. \nTake time for self-care activities that nourish your mind, body, and soul. \nRemember quality sleep, healthy diet and physical activity will make you feel a lot better. \nDo you think you have eating problem? Do you binge eat or have fear of gaining weight?"],
+            "context_set": ""
+        },
+        {
+            "tag": "panic_attack",
+            "patterns": [
+                "I am having a panic attack", 
+                "How can I cope during a panic attack?", 
+                "I suffer from panic attacks"],
+            "responses": [
+                "I'm here to help you through this. Try to focus on your breath. Take deep, slow breaths. You're not alone.\nWhen the attack gets less vivid try to relax your mind and distract yourself. \nYou can use the distraction therapy: Cunt backwards from 100.", 
+                "I'm here with you. Try to find a quiet, safe space. Take slow, deep breaths. You're going to be okay.\nWhen the attack gets less vivid try to relax your mind and distract yourself. \nYou can use the distraction therapy: Cunt backwards from 100.",
+                "Do not worry! There are strategies to help manage and alleviate symptoms. Deep breathing exercises, such as counting breaths or focusing on slow, deliberate inhalations and exhalations, can help regulate your body's response to panic. Grounding techniques, such as identifying and describing sensory experiences, can help anchor you in the present moment and reduce feelings of disorientation. \nProgressive muscle relaxation involves systematically tensing and then releasing different muscle groups to promote relaxation and reduce physical tension. Mindfulness meditation encourages nonjudgmental awareness of thoughts and sensations, which can help diminish the intensity of panic symptoms.  Additionally, prioritizing self-care activities and engaging in regular exercise, adequate sleep, and healthy nutrition can contribute to overall well-being and resilience in managing panic attacks."],
+            "context_set": ""
+        },
+        {
+            "tag": "anger_management",
+            "patterns": [
+                "I struggle with anger", 
+                "How can I manage my anger?", 
+                "I have anger issues",
+                "I feel angry everytime"],
+            "responses": [
+                "It sounds like you're dealing with a lot of anger and are looking for ways to manage it. Anger can be a challenging emotion to navigate, but there are strategies that can help. One approach is to practice deep breathing or relaxation techniques when you start to feel angry. Taking deep breaths and focusing on calming your body can help to diffuse the intensity of the emotion. Additionally, it may be helpful to identify any triggers or patterns that contribute to your anger and work on finding healthier ways to respond to these situations. This might involve expressing your feelings assertively, rather than aggressively, or taking a break from the situation until you feel calmer."],
+            "context_set": ""
+        },
+        {
+            "tag": "social_anxiety",
+            "patterns": [
+                "I have social anxiety", 
+                "How can I cope with social situations?", 
+                "I feel anxious around people",
+                "I am in a party, i dont know whom to approach"],
+            "responses": [
+                "It's essential to recognize that social anxiety is a common mental health condition and that you're not alone in your experience. \nOne effective approach is gradually exposing yourself to feared social situations while practicing relaxation techniques, such as deep breathing, yoga or progressive muscle relaxation, to manage anxiety symptoms. "],
+            "context_set": ""
+        },
+        {
+            "tag": "phobias",
+            "patterns": [
+                "I have specific phobias", 
+                "How can I overcome my fears?", 
+                "I need help with my phobias"],
+            "responses": [
+                "It sounds like you're struggling with specific phobias and are seeking support to overcome them. Facing fears can be daunting, but it's possible to work through them with the right approach. One effective method is gradual exposure therapy, where you gradually and safely confront the object or situation that triggers your fear, starting with less intimidating scenarios and progressively increasing exposure as you become more comfortable."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "eating_disorders",
+            "patterns": [
+            "what is eating disorder",
+            "i have eating problem",
+            "i think i have a eating problem"],
+            "responses": [
+                "An eating disorder is a complex and serious mental health condition characterized by unhealthy eating habits and attitudes towards food, weight, and body image. There are several types of eating disorders, including anorexia nervosa, bulimia nervosa, binge eating disorder"],
+            "context_set": ""
+        },
+        {
+            "tag": "annorexia",
+            "patterns": [
+            "what is annorexia nervosa"],
+            "responses": [
+                " Individuals with anorexia nervosa typically have an intense fear of gaining weight and a distorted body image. The symptoms are \n Extreme Weight Loss \nIntense Fear of Gaining Weight \nObsessive Thoughts About Food and Calories \nDenial of Hunger"],
+            "context_set": ""
+        },
+        {
+            "tag": "bullimia",
+            "patterns": [
+            "what is bullimia nervosa"],
+            "responses": [
+                "People with bulimia nervosa frequently consume large amounts of food (binge eating) and then attempt to compensate for the overeating. Like anorexia nervosa, bulimia nervosa is often associated with a fear of gaining weight and a negative body image."],
+            "context_set": ""
+        },
+        {
+            "tag": "anorexianervosa",
+            "patterns": [
+            "I have annorexia nervosa. what to do?", 
+            "I have fear of gaining weight",
+            "I had extreme weight loss",
+            "Obsessive Thoughts About Food and Calories",
+            "I always think about food calories",
+            "I avoid being hungry"],
+            "responses": [
+                "It's evident that you're experiencing distressing symptoms associated with anorexia nervosa, a serious mental health condition that requires professional support and treatment. First and foremost, it's crucial to seek help from a healthcare provider or mental health specialist who specializes in eating disorders. They can provide you with a comprehensive assessment and develop a personalized treatment plan tailored to your needs. \nTreatment for anorexia nervosa typically involves a combination of medical, nutritional, and psychological interventions. This may include nutritional counseling, therapy (such as cognitive-behavioral therapy), medication management, and support groups. It's also important to prioritize self-care and surround yourself with a supportive network of friends and family who can offer encouragement and understanding throughout your recovery journey. "],
+            "context_set": ""
+        },
+        {
+            "tag": "bullimianervosa",
+            "patterns": [
+            "I have bullimia nervosa. what to do?", 
+            "I binge eat",
+            "I eat a lot",
+            "I eat a lot and then hate myself",
+            "I consume large amounts of food"],
+            "responses": [
+                "Maintain the journal to track thoughts and emotions related to bingeing and purging episodes, aiding in self-reflection and identifying triggers. \nIncorporate relaxation techniques such as deep breathing and guided imagery to manage stress and anxiety levels effectively. \nDevelop healthy coping skills through activities like art therapy or mindfulness meditation, providing alternatives to destructive behaviors. \nEstablish self-care rituals and maintain connections with supportive individuals or online communities, fostering a sense of understanding and encouragement. Educate yourself about bulimia nervosa and recovery through reputable resources, empowering yourself with knowledge and understanding. Set realistic goals for your recovery journey, celebrating progress and showing patience and compassion towards yourself throughout the process."],
+            "context_set": ""
+        },
+        {
+            "tag": "eating_disorder",
+            "patterns": [
+            "I'm dealing with an eating problem", 
+            "How can I get help for my eating disorder?", 
+            "I need support with my eating habits"],
+            "responses": [
+                "It's important to address nutritional needs by working with a registered dietitian to establish balanced eating habits and challenge disordered behaviors effectively. \nCognitive-behavioral techniques can help identify and reframe negative thoughts about food and body image, while practicing self-care activities and developing healthy coping skills are essential for managing stress and emotions. \nSetting realistic goals, staying committed to treatment, and addressing any co-occurring mental health conditions are crucial steps toward recovery. \nThroughout the journey, practicing self-compassion and acknowledging progress, no matter how small, can help maintain motivation and resilience."],
+            "context_set": ""
+        },
+        {
+            "tag": "eat",
+            "patterns": [
+            "what should i eat?", 
+            "what to eat",
+            "balanced diet"],
+            "responses": [
+                "When considering what to eat, it's important to focus on balanced and nutritious meals that provide your body with the necessary nutrients it needs to function optimally. \nAim for a variety of foods from different food groups, including fruits, vegetables, whole grains, lean proteins, and healthy fats. \nIncorporating a colorful array of fruits and vegetables into your diet can ensure you're getting a wide range of vitamins, minerals, and antioxidants. \nChoose whole grains like brown rice, quinoa, or whole wheat bread over refined grains for added fiber and nutrients. \nInclude lean sources of protein such as poultry, fish, beans, lentils, tofu, or low-fat dairy products. \nAdditionally, incorporate healthy fats from sources like avocados, nuts, seeds, and olive oil. \nRemember to stay hydrated by drinking plenty of water throughout the day. \nListening to your body's hunger and fullness cues can also help guide your food choices."],
+            "context_set": ""
+        },
+        {
+            "tag": "noteat",
+            "patterns": [
+            "what should i not eat?", 
+            "what to avoid eating"],
+            "responses": [
+                "Highly processed and sugary foods, such as candy, pastries, sugary drinks, and snack foods, are often low in nutritional value and can lead to weight gain and other health issues when consumed in excess. \nAdditionally, foods high in saturated and trans fats, such as fried foods, fatty cuts of meat, and processed snacks, can increase your risk of heart disease and other cardiovascular problems. \nIt's also advisable to limit your intake of refined carbohydrates, including white bread, white rice, and sugary cereals, as these foods can cause rapid spikes in blood sugar levels and may contribute to insulin resistance over time. "],
+            "context_set": ""
+        },
+        {
+            "tag": "therapy_options",
+            "patterns": [
+                "What are my therapy options?", 
+                "How can I find a therapist?", 
+                "Where can I get therapy?",
+                "suggest me a therapy"],
+            "responses": [
+                "There are various therapy options available, including cognitive-behavioral therapy (CBT), talk therapy, and more. \nSome other therapies are: \nDistraction Therapy: Recall numbers from 100 backwards. \nMindful Therapy: Practice some mindful meditation by Honest Guys. \nDeep Breathing Therapy: Try deep breaths. \nMuscle Relaxation Therapy: To release muscle tension. \nJournaling Therapy: Write your hearts out and you will feel relaxed. "],
+            "context_set": ""
+        },
+        {
+            "tag": "medication",
+            "patterns": [
+                "Should I consider medication?", 
+                "What are my options for medication?", 
+                "How can I discuss medication with my doctor?"],
+            "responses": [
+                "It is very important to discuss medicine with doctors before taking them, if you are based in Kathmandu, do book an appointment with Dr. Nidesh Sapkota and his team to understand our needs. If your conditions are not to severe try avoiding intake of caffeine and alcohol, practice mindful meditation, try yoga for mental health and do what you love. Additionally you can practice PMRT and deep breathing exercises. These all are some home remedies to make you feel good. "],
+            "context_set": ""
+        },
+        {
+            "tag": "ocd",
+            "patterns": [
+                "What is OCD?", 
+                "WHAT IS Obsessive Compulsive Disorder"],
+            "responses": [
+                "Obsessive-Compulsive Disorder (OCD) is a mental health condition characterized by persistent, intrusive thoughts (obsessions) and repetitive behaviors or rituals (compulsions) that individuals feel driven to perform in response to these thoughts. Obsessions are unwanted, distressing thoughts, images, or urges that cause significant anxiety or discomfort. Compulsions are repetitive behaviors or mental acts that individuals feel compelled to perform in an attempt to reduce the anxiety or prevent a feared outcome related to their obsessions. Common obsessions include fears of contamination, doubts about safety, or worries about orderliness, while common compulsions include excessive cleaning, checking, counting, or arranging. "],
+            "context_set": ""
+        },
+        {
+            "tag": "sympocd",
+            "patterns": [
+                "I think  i have OCD?", 
+                "symptoms of OCD"],
+            "responses": [
+                "Here are some symptoms of OCD  \nObsessions: unwanted thoughts, images, or urges.\nCompulsions: Repetitive behaviors or mental acts performed in response to obsessions, Excessive hand washing, or cleaning to reduce contamination fears, Checking locks, appliances, or other items repeatedly to ensure safety, Counting, arranging, or organizing items in a specific way, Repeating words, phrases, or prayers silently or aloud. " 
+               ],
+            "context_set": ""
+        },
+        {
+            "tag": "obsessive_compulsive_disorder",
+            "patterns": [
+                "I have OCD", 
+                "How can I manage my obsessive thoughts?", 
+                "I need help with OCD"],
+            "responses": [
+                "Here are some techniques that you can try: \nExposure and Response Prevention - Under the guidance of a therapist, gradually expose yourself to situations or triggers that provoke obsessions while resisting the urge to perform compulsive behaviors. \nOver time, exposure to triggers without engaging in rituals can help reduce the power of obsessions. Use some relaxation techniques and exercises. \nDistract yourself, maybe count backwards from 100. \nIf your conditions are severe there might be need of pharmacotherapy like SSRI drugs, but only after consulting with psychiatirst."],
+            "context_set": ""
+        },
+        {
+            "tag": "erp",
+            "patterns": [
+                "what is Exposure and Response Prevention", 
+                "erp", 
+                "Exposure and Response Prevention"],
+            "responses": [
+                "Exposure and Response Prevention (ERP) is a therapeutic technique commonly used to treat anxiety disorders like obsessive-compulsive disorder (OCD). In ERP, individuals are gradually exposed to situations or objects that trigger their anxiety while refraining from engaging in their usual compulsive behaviors. The goal is to help them confront their fears in a controlled manner, learning that they can tolerate the anxiety without needing to perform their compulsions. It's like facing your fears head-on while learning that the anxiety will naturally decrease over time. ERP is typically done with the guidance of a therapist who helps create a hierarchy of feared situations to gradually expose you to. It can be challenging, but it's highly effective in reducing anxiety and improving overall well-being."],
+            "context_set": ""
+        },
+        {
+            "tag": "obsessive",
+            "patterns": [
+                "i have unwanted thoughts", 
+                "i have unwanted images in my head", 
+                "i have doubts about safety or fears of harm to oneself or others"],
+            "responses": [
+                "Managing obsessions in OCD involves recognizing triggers, practicing mindfulness to accept thoughts without judgment, challenging the validity of obsessive thoughts, delaying compulsive behaviors, using exposure and response prevention techniques, creating a hierarchy of exposures, engaging in distractions, and seeking support from trusted individuals or professionals. These strategies aim to reduce the distress caused by obsessions and gradually diminish their impact on daily life."],
+            "context_set": ""
+        },
+        {
+            "tag": "compulsive",
+            "patterns": [
+                "i feel like washing my hands everytime", 
+                "i have germs everyehere", 
+                "i have contamination issues",
+                "repeating words",
+                "excessive cleaning",
+                "repetition"],
+            "responses": [
+                "Managing compulsions in OCD involves several strategies to reduce the urge to engage in repetitive behaviors: \nRecognize triggers that prompt compulsive behaviors, you can journal your thoughts and behaviours \nUse exposure and response prevention (ERP) techniques to gradually confront triggers without performing rituals, \nCreate a hierarchy of compulsive behaviors, starting with less anxiety-provoking ones."],
+            "context_set": ""
+        },
+        {
+            "tag": "ocddoctor",
+            "patterns": [
+                "when to seek medical help"],
+            "responses": [
+                "It is necessary to seek medical helps in early stages so that you can be treated well. If you are based in Kathmandu do book an appointment for Dr. Nidesh Sapkota and his team."],
+            "context_set": ""
+        },
+        {
+            "tag": "toolsocd",
+            "patterns": [
+                "where to find assessment tools for OCD"],
+            "responses": [
+                "You will get scales like Yale-Brown Obsessive-Compulsive scales all over the internet."],
+            "context_set": ""
+        },
+        {
+            "tag": "schizophreniaexptreme",
+            "patterns": [
+                "I think I am hallucinating", 
+                "Am i in delusion", 
+                "I need support with hallucination and delusion"],
+            "responses": [
+                "If you are experiencing such things it is very necessary to consult a doctor. They will check your case and give antipsychotic drugs accordingly."],
+            "context_set": ""
+        },
+        {
+            "tag": "schizophrenia",
+            "patterns": [
+                "What is schizophrenia?",
+                "I think i have schizophrenia",
+                "i am schizophrenic"
+          ],
+            "responses": [
+                "Schizophrenia includes symptoms such as hallucinations (perceiving things that aren't real), delusions (false beliefs), disorganized thinking and speech, and difficulty with social interaction and daily functioning. Schizophrenia typically emerges in late adolescence or early adulthood, but it can occur at any age. It is a complex condition with a combination of genetic, environmental, and neurobiological factors contributing to its development. Treatment typically involves a combination of antipsychotic medications, psychotherapy, and support services to manage symptoms and improve quality of life. Is this happening to you? If yes, it is very important to consult a doctor."],
+            "context_set": ""
+        },
+        {
+            "tag": "schizophreniagenetic",
+            "patterns": [
+                "is schizophrenia genetically inherited"
+          ],
+            "responses": [
+                "Yes, schizophrenia is highly genetically inheritable condition. Which symptoms of schizophrenia do you have?"],
+            "context_set": ""
+        },
+        {
+            "tag": "schizophreniafamily",
+            "patterns": [
+                "My dad has schizophrenia what should i do"
+          ],
+            "responses": [
+                "If your near ones have schizophrenia, it is of utmost importance to support them. Only positive emotions should roam around them. "],
+            "context_set": ""
+        },
+        {
+            "tag": "schizophreniaknow",
+            "patterns": [
+                "How to test for schizphrenia"
+          ],
+            "responses": [
+                "It is clinically diagnosed by psychiatrist. They use different pschyometric tools to understand the process. If you are feeling this way, please visit a mental health doctor soon. "],
+            "context_set": ""
+        },
+        {
+            "tag": "nonsense",
+            "patterns": [
+                "ipl",
+                "code"
+          ],
+            "responses": [
+                "I am a mental health chatbot, please ask me questions related to mental health only."],
+            "context_set": ""
+        },
+        {
+            "tag": "adhd",
+            "patterns": [
+                "what is adhd",
+                "what is Attention Deficit Hyperactivity Disorder"
+          ],
+            "responses": [
+                "It's a neurodevelopmental disorder that affects individuals' ability to focus, control impulses, and regulate their energy levels. \nPeople with ADHD may exhibit symptoms such as inattention, hyperactivity, and impulsivity, which can interfere with their daily functioning and relationships. Which symptoms do you have?"],
+            "context_set": ""
+        },
+        {
+            "tag": "adhdpre",
+            "patterns": [
+                "i have difficulty with attention",
+                "i cannot organize tasks",
+                "it is hard for me to follow instructions",
+                "inattention"
+          ],
+            "responses": [
+                "These are symptoms of predominantly inattentive ADHD.  \nThings you can do are: \nEstablishing a structured routine can provide predictability. \nBreaking tasks into smaller steps makes them more manageable and reduces overwhelm. \nMinimizing distractions in the environment, such as noise or clutter, can improve focus. \nUsing alarms and reminders helps stay on track with tasks and deadlines. \nChunking information and organizing belongings with systems like color-coding aid in comprehension and efficiency. \nRegular exercise contributes to increased focus and concentration. \nPracticing mindfulness and relaxation techniques reduces stress and enhances mental clarity."],
+            "context_set": ""
+        },
+        {
+            "tag": "adhdhyper",
+            "patterns": [
+                "i am hyper active",
+                "my impuslive is high",
+                "high impulsivity",
+                "hyperactive"
+          ],
+            "responses": [
+                "These are symptoms of predominantly hyperactive ADHD.  \nFirstly, incorporating regular physical activity into your routine, such as engaging in sports or outdoor activities, can help channel your excess energy and improve focus. \nCreating a structured environment with clear rules and routines can provide stability and reduce impulsivity.\n It's also beneficial to take frequent breaks during tasks to prevent restlessness and incorporate movement breaks like stretching or short walks. \nConsider using fidget tools like stress balls to provide a constructive outlet for your excess energy. \nLearning and practicing mindfulness techniques such as deep breathing or progressive muscle relaxation can aid in managing impulsivity and increasing self-awareness."],
+            "context_set": ""
+        },
+        {
+            "tag": "financial_stress",
+            "patterns": [
+                "I'm dealing with financial stress", 
+                "How can I cope with financial pressure?", 
+                "I need support with my financial situation"],
+            "responses": ["Financial stress can be overwhelming. I'm here to help. Let's discuss ways to manage your financial situation and explore resources that can offer support and guidance."],
+            "context_set": ""
+        },
+        {
+            "tag": "identity_crisis",
+            "patterns": ["I'm going through an identity crisis", "How can I navigate my identity crisis?", "I need support with my sense of self"],
+            "responses": ["Experiencing an identity crisis is a significant challenge. I'm here to support you. Let's talk about your feelings and explore strategies to help you navigate through this period of self-discovery."],
+            "context_set": ""
+        },
+        {
+            "tag": "exercise_mental_health",
+            "patterns": [
+                "How does exercise affect mental health?", 
+                "I want to improve my mental health through exercise", 
+                "I need guidance on incorporating exercise for mental well-being"],
+            "responses": [
+                "Incorporating exercise into your routine for mental well-being can be as simple as choosing activities you enjoy, like walking, dancing, or yoga. Start with manageable goals, aiming for at least 30 minutes most days. Make it social by exercising with friends or family, and prioritize consistency by scheduling workouts regularly. Mix up your routine to keep things interesting, and listen to your body's needs, adjusting intensity as necessary. "],
+            "context_set": ""
+        },
+        {
+            "tag": "mindfulness_practices",
+            "patterns": [
+                "I want to practice mindfulness meditation", 
+                "How can mindfulness help with mental well-being?", 
+                "I need guidance on mindfulness techniques",
+                "mindfulness techniques"],
+                
+            "responses": [
+                "Mindfulness practices can be beneficial for mental well-being. You can also try mindfulness meditation by the Honest Guys: https://www.youtube.com/@TheHonestGuys. They are very calming and soothing."],
+            "context_set": ""
+        },
+        {
+            "tag": "positive_affirmations",
+            "patterns": [
+                "I want to use positive affirmations", 
+                "How can positive affirmations improve my mindset?",
+                 "I need guidance on creating affirmations"],
+            "responses": ["Repeating positive affirmations like 'I am the best' every day can boost self-confidence and promote a positive mindset. By affirming your strengths and abilities, you can cultivate a greater sense of self-belief and resilience in facing challenges. Remember, consistency is key, so make it a daily practice to reinforce these affirmations and nurture a more confident and empowered mindset."],
+            "context_set": ""
+        },
+        {
+            "tag": "incomplete",
+            "patterns": [
+                "how to", 
+                "what",
+                 "why",
+                "yes",
+                "no"],
+            "responses": ["Hey! I did not understand your question. please rephrase your question. Sorry for the confusion"],
+            "context_set": ""
+        },
+        {
+            "tag": "about",
+            "patterns": [
+                "Who are you?", 
+                "who made you"],
+            "responses": ["I am Smart Mate, your digital friend. I am here to help you with anxiety, stress, depression, eating disorders, ADHD, OCD and Schizophrenia. I was trained by Saakshi Baheti as part of her Final Year Project."],
+            "context_set": ""
+        }
+    ]
+}
