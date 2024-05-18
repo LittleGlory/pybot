@@ -1,10 +1,9 @@
 import nltk
-nltk.download('all')
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import json
 import pickle
-
+from sklearn.utils import class_weight
 import numpy as np
 from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
@@ -30,8 +29,8 @@ words = [lemmatizer.lemmatize(w.lower()) for w in words if w not in ignore_words
 words = sorted(list(set(words)))
 classes = sorted(list(set(classes)))
 
-pickle.dump(words, open('texts.pkl', 'wb'))
-pickle.dump(classes, open('labels.pkl', 'wb'))
+pickle.dump(words, open('texts8.pkl', 'wb'))
+pickle.dump(classes, open('labels8.pkl', 'wb'))
 
 # create our training data
 training = []
@@ -58,6 +57,18 @@ random.shuffle(training)
 X = np.array([bag for bag, _ in training])
 Y = np.array([output_row for _, output_row in training])
 
+
+
+unique_classes = np.unique(Y)
+num_classes = len(unique_classes)
+
+#class_weights = class_weight.compute_class_weight('balanced',np.unique(Y),Y)
+
+print ("y:", Y)
+print("X shape:", X.shape)
+print("Y shape:", Y.shape)
+
+
 print("Training data created")
 
 # Create model - 3 layers.
@@ -73,7 +84,8 @@ sgd = SGD(learning_rate=0.01, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 # Fitting and saving the model
+
 hist = model.fit(X, Y, epochs=200, batch_size=5, verbose=1)
-model.save('model.h5', hist)
+model.save('model8.h5', hist)
 
 print("Model created")
